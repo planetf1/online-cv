@@ -66,48 +66,87 @@ education:
         university: University of Manchester
         time: 1987 - 1990
         details:
-
+      - degree: Physics
+        university: University of Oxford
+        time: 1986 - 1987
+        details: Started as Physics undergrad, but was excited by the home computer revolution and decided to switch to a degree including computer science at Manchester - a very dynamic environment
 
 experiences:
     title: Experiences
     info:
-      - role: Maintainer
+      - role: Maintainer / Software Engineer
         time: 2017 - Present
         company: IBM
         details: |
           Developer and Maintainer on the Egeria open source project since inception.
+      - role: Information Solutions Architect
+        time: 2011 - 2016
+        company: IBM
+        details: |
+          Understanding Information lifecycle & supply chains & working with customers & product teams to architect solutions
+  
+          Developed and communicated Data Lake/Reservoir architecture and implementations.
+  
+          Included ETL, Information Governance, metadata catalogs, & solutions using specific technologies such as Apache Hadoop, Apache Falcon, and Apache Atlas.
+  
+          Learnings during this period led to current focus on open metadata, initially using Apache Atlas, but then helping to form and create the Egeria project
+      - role: Software Architect
+        time: 2009 - 2011
+        company: IBM
+        details: |
+          Architect in the InfoSphere Tools area within Information Management
+  
+          Work across variety of products but especially current Master Information Management offerings.
 
-projects:
-    title: Projects
-    intro: >
-      Work assignments
-    assignments:
-      - title: Egeria
-        link: "#hook"
-        tagline: "An open metadata infrastructure"
+          Focussed in particular on a variety of cross-product issues as well as the integration of these products into the broader IBM portfolio
+      - role: Software Architect / Engineer
+        time: 2005 - 2009
+        company: IBM
+        details: |
+          Working with IBM Master Data Management Server on a variety of areas - installation, performance, search,zOS
+      - role: Software Developer
+        time: 1991 - 2004
+        company: IBM
+        details: |
+          IBM Voice products
+#projects:
+#    title: Projects
+#    intro: >
+#      Work assignments
+#    assignments:
+#      - title: Egeria
+#        link: "#hook"
+#        tagline: "An open metadata infrastructure"
 
 
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section.
-    contributions:
-      - title: Egeria
-        link: "#"
-        tagline: "Open metadata project"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section.
+#    contributions:
+#      - title: Egeria
+#        link: "#"
+#        tagline: "Open metadata project"
 
 
 publications:
     title: Publications
     intro: |
-      Books
-      - title: Data Lakes
-        link: "#"
-        authors: Jones, Radley, Wolfson & Chessell
-        conference: n/a
-
+      Books & Patents
+    papers:
+      - title: Designing and Operating a Data Reservoir
+        link: https://www.redbooks.ibm.com/redbooks/pdfs/sg248274.pdf
+        authors: Mandy Chessell, Nigel Jones, Jay Limburn, David Radley, Kevin Shan
+        #conference: n/a
+      - title: US20060104307A1 Method and system for channel management in a voice response system
+        link: https://patents.google.com/patent/US20060104307A1
+        authors: Nigel Jones, Bernard Kufluk,Philip Noel, David Vyvyan
+      - title: US6366879B1 Controlling interactive voice response system performance
+        link: https://patents.google.com/patent/US6366879B1
+        authors: Nigel Jones, Bernard Kufluk, Philip Noel, David Vyvyan
+        #conference: n/a
 
 skills:
     title: Skills &amp; Proficiency
@@ -144,6 +183,7 @@ skills:
         level: 90%
       - name: Supply Chain Security
         level: 80%
+      - name: Static Code Analysis
       - name: Containers
         level: 90%
       - name: Kubernetes
