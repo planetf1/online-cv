@@ -17,7 +17,7 @@ sidebar:
     #timezone: Europe/London Timezone
     #citizenship:
     #website: blog.webjeda.com #do not add http://
-    linkedin: nigeljones
+    linkedin: nigelljones
     #xing: alandoe
     github: planetf1
     #telegram: # add your nickname without '@' sign
@@ -92,8 +92,7 @@ oss:
     title: OSS Contributions
     intro: >
       You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      section.
     contributions:
       - title: Egeria
         link: "#"
@@ -114,10 +113,55 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: open-source development
+        level: 90%
+      - name: solution architecture
+        level: 90%
+      - name: Information Governance
+        level: 90%
+      - name: metadata
+        level: 90%
+      - name: Data Lakes
+        level: 90%
       - name: Java
+        level: 70%
+      - name: Golang
+        level: 50%
+      - name: Python
+        level: 50%
+      - name: shell scripting
+        level: 90%
+      - name: Jupyter (notebooks)
+        level: 50%
+      - name: Linux
+        level: 90%
         #level: 98%
-      - name: Open Source Development
+      - name: GitHub / git
+        level: 90%
+      - name: Maven & Gradle
+        level: 90%
+      - name: cicd / GitHub actions
+        level: 90%
+      - name: Supply Chain Security
+        level: 80%
+      - name: Containers
+        level: 90%
       - name: Kubernetes
+        level: 80%
+      - name: Openshift
+        level: 70%
+      - name: Helm (developing charts)
+        level: 90%
+      - name: Kubernetes Operators (writing)
+        level: 90%
+      - name: SQL
+        level: 90%
+      - name: Apache Kafka
+        level: 60%
+      - name: Apache Atlas
+        level: 60%
+      - name: Analysing logs, performance
+        level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    https://planetf1.github.io/online-cv/
