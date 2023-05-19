@@ -13,7 +13,6 @@ sidebar:
 
     # Sidebar links
     email: nigel.l.jones@gmail.com
-    phone: +44 7727 672870
     #timezone: Europe/London Timezone
     #citizenship:
     #website: blog.webjeda.com #do not add http://
@@ -38,25 +37,34 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: Local technical meetings
+          link: https://siliconbrighton.com/meetup-groups/
+        - item: Climate Change
+          link:
+        - item: Physics
+          link:
         - item: Electric Vehicles
           link:
-
         - item: Formula 1
           link:
-
         - item: Travel
           link:
-
+        - item: Raspberry pi / Home Automation
+          link:
+        - item: Geneology
+          link:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently an open source developer at IBM, and have involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
+      I am currently an open source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
   
-      I have a passion for open source, which underpins so much of today's IT offering immense business value. Open source thrives on community, as well as organizations that can see the value in contributing to it's success.
+      I have a passion for open source, which underpins so much of today's IT offering immense business value. Open source thrives on community, as well as organizations that can see the value in contributing to it's success. The vision is only fully realised as other organizations can then build upon this & deliver solid value to their business.
   
-      I also enjoy taking a project from inception to reality - in Egeria this has included not just architecture, code, design, documentation, but implementing ci/cd for over 350 modules across over 30 repositories, test automation, developing our first demo infrastructure using Juypter/python & containers, and driving that containerization through writing helm charts, kubernetes deployments & operators. Then getting to the bottom of resource, performance issues through determination and diligence whilst communicating clearly and sharing rapidly.
+      I also enjoy taking a project from inception to reality - in Egeria this has included not just initial ideas, architecture, code, design, documentation, but implementing ci/cd for over 350 modules across over 30 repositories, test automation, developing our first demo infrastructure using Juypter/python & containers, and driving that containerization through writing helm charts, kubernetes deployments & operators. Then getting to the bottom of resource, performance issues through determination and diligence whilst communicating clearly and sharing rapidly.
   
       Over 2,200 contributions to GitHub in public repositories in the year up to 8 May 2023. https://github.com/planetf1
+      
+      Inner-source is increasingly important within organizations too, requiding a similar approach - Flexibility, community, embracing change, learning, and delivering value.
   
       In my own time I love getting out exploring new places, and doing what I can to support mitigation of climate change.
 education:
@@ -184,6 +192,7 @@ skills:
       - name: Supply Chain Security
         level: 80%
       - name: Static Code Analysis
+        level: 70%
       - name: Containers
         level: 90%
       - name: Kubernetes
