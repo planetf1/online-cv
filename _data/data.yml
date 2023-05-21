@@ -61,7 +61,7 @@ career-profile:
   
       I have a passion for open source, which underpins so much of today's software solutions. Open source thrives on community engagement, open discussions, honesty, integrity, and delivery. Equally, this same pattern occurs within an organization as inner-source is increasingly a standard way of working.
   
-      I also enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies. WHilst on Egeria I was responsible for many additions, especially beyond the core Java Architecture embracing CI/CD, Security, Demos, Containerization/Kubernetes, Jupyter as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions to business problems.
+      I also enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies. Whilst on Egeria I was responsible for many additions, especially beyond the core Java Architecture embracing CI/CD, Security, Demos, Containerization/Kubernetes, Jupyter as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions to business problems.
         
       In my own time I love getting out exploring new places, and doing what I can to support mitigation of climate change.
 education:
@@ -84,46 +84,67 @@ experiences:
         company: IBM (open-source development)
         details: |
           Co-founder, Maintainer, and developer since inception on the Egeria open source project providing a metadata integration framework.
+
           Solution architecture through community discussions. Developed framework components (Java/Spring).
+
           Developed various integrations for initial MVPs including policy-based access control using Apache Ranger & Databases.
+
           Implemented/Owned ci/cd (git + azure pipelines->github actions) & test automation for over 350 components across over 30 repositories. First in maven, then migrated to Gradle.
-          Implemented/Owned containerization, including Kubernetes support, Helm charts, & Kubernetes operator development (go/java)
+
+          Implemented/Owned containerization, including Kubernetes support, Helm charts, & Kubernetes operator development (go/java).
+
           Developed design and implementation for Jupyter/Python support for demos/evangelism & education sessions.
+
           Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits.
+
           Led security work implementing TLS, introducing static analysis, dependency analysis reviews & policy.
+          
           Consistently delivered over 2000 public Github contributions per year.
+
           Deputy project representative on LF AI & Data Technical Advisory Council.
+
           Worked with IBM product teams (in addition to other companies) on consuming Egeria.
       - role: Information Solutions Architect
         time: 2011 - 2016
         company: IBM (Information Management)
         details: |
           Understanding Information lifecycle & supply chains & working with customers & product teams to architect solutions including IBM products & third-party technologies.
+
           Developed and communicated Data Lake/Reservoir architecture and implementations (see publication). Worked with development and sales teams including responding to requests for information, design proposals, presentations.
+
           Technologies include ETL, Information Governance, metadata catalogs, & solutions using specific technologies such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor).
-          Developed (java/sql) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation)
-          Learnings during this period led to current focus on open metadata, initially using Apache Atlas, but then helping to form and create the Egeria project
+
+          Developed (java/sql) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation).
+
+          Learnings during this period led to current focus on open metadata, initially using Apache Atlas, but then helping to form and create the Egeria project.
       - role: Software Architect
         time: 2009 - 2011
         company: IBM (Information Management)
         details: |
           Architect in the InfoSphere Tools area within Information Management.
+
           Supported customer bids across variety of products but especially current Master Information Management offerings.
+
           Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio.
       - role: Software Architect / Developer
         time: 2005 - 2009
         company: IBM (Information Management)
         details: |
          Java Developer on IBM Master Data Management Server following acquisition.
+
          Developed integration with IBM product strategy including installation.
+
          Also worked on performance analysis, search & z/OS support including Linux on Z.
       - role: Software Developer (Voice Systems)
         time: 1991 - 2004
         company: IBM
         details: |
           Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI.
+
           Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database layer.
-          Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel including submitting algorithm improvements to AIX kernel.
+
+          Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel, including submitting algorithm improvements to AIX kernel.
+          
           Responded to customer requests for new function, analyzing and designing solutions.
 
 #projects:
