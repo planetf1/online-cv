@@ -135,9 +135,9 @@ experiences:
          Developed integration with IBM product strategy including installation.
 
          Also worked on performance analysis, search, and z/OS support including Linux on Z.
-      - role: Software Developer (Voice Systems)
-        time: 1991 - 2004
-        company: IBM
+      - role: Software Developer
+        time: 1992 - 2004
+        company: IBM (Voice Systems)
         details: |
           Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI supporting 100-1000s concurrent calls with Interactive Voice Response & Voicemail.
 
@@ -146,6 +146,21 @@ experiences:
           Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel, including submitting algorithm improvements to AIX kernel.
 
           Responded to customer requests for new function, analyzing and designing solutions.
+      - role: Software Developer
+        time: 1991 - 1992
+        company: IBM (ISDN)
+        details: |
+          Debugging and fixing (in C) ISDN device driver code & developing graphical install/configuration panels. 
+      - role: Software Developer
+        time: 1990 - 1991
+        details: |
+          Testing Graphics Drivers.
+        company: IBM (Graphics)
+      - role: Sponsored Student
+        time: 1987 - 1990 (Easter/Summer vacation)
+        company: British Telecom
+        details: |
+          Data quality and analysis such as resolving provisioned/mismatched services when comparing data queried from live Telephony exchanges with mainframe (cobol) based billing and customer management systems. Developed database queries & reports.
 
 #projects:
 #    title: Projects
