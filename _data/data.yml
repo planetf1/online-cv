@@ -13,20 +13,20 @@ sidebar:
 
     # Sidebar links
     email: nigel.l.jones@gmail.com
-    #timezone: Europe/London Timezone
+    timezone: Europe/London Timezone
     citizenship: British Citizen
-    #website: blog.webjeda.com #do not add http://
+    #website: 
     linkedin: nigelljones
-    #xing: alandoe
+    #xing: 
     github: planetf1
-    #telegram: # add your nickname without '@' sign
+    #telegram: 
     #gitlab:
     #bitbucket:
-    #twitter: '@webjeda'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #twitter: 
+    #stack-overflow: 
     #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+    #goodreads: # Number-Username
+    #pdf: 
 
     languages:
       title: Languages
@@ -57,13 +57,13 @@ career-profile:
     title: Career Profile
     summary: |
       
-      I am an open-source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
+      I am an developer at IBM, and have been involved with the Egeria open source project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & data governance platform.
   
-      I have a passion for open source, which underpins so much of today's software solutions. Open source thrives on community engagement, open discussions, honesty, integrity, and delivery. Equally, this same pattern occurs within an organization as a collaborative inner-source approach is increasingly adopted.
-  
-      I enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies, as well as digging into detail and analysing root cause of issues. Whilst on Egeria I was responsible for many new areas as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions.
-        
-      A successful future role would combine working in an open and engaging community with further developing skills areas I already have, alongside developing skills in new technologies, to deliver solutions to business problems that can make a difference.
+      I enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies, as well as digging into detail and analysing root cause of issues. Whilst on Egeria I was responsible for many new areas as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately with a good understanding of requirements and constraints, is integral to my approach to developing software solutions.
+      
+      I have a passion for open source, which underpins much current software. Open source thrives on community engagement, continual sharing, open discussions, honesty, integrity, trust, and delivery. Equally, this same pattern occurs within an organization as a collaborative inner-source approach is increasingly adopted.
+
+      A successful future role would combine working in an open, diverse, and engaging community whilst improving skills I already have, alongside developing skills in new technologies, to deliver solutions to business problems that can make a difference.
 education:
     title: Education
     info:
@@ -83,74 +83,74 @@ experiences:
         time: 2017 - Present
         company: IBM (open-source development)
         details: |
-          Co-founder, Maintainer, and developer since inception on the Egeria open source project providing a metadata integration framework.
+          Co-founder, maintainer, and developer since inception on the Egeria open source project ( https://egeria-project.org ) providing a metadata integration framework.
 
-          Solution architecture through community discussions. Developed framework components (Java/Spring).
+          As part of a small founding team, developed architecture through close collaboration and developed framework components (Java/Spring).
 
-          Developed various integrations for initial MVPs including policy-based access control using Apache Ranger & Databases.
+          Developed various integrations for initial MVPs including policy-based access control & virtualization for Databases using Apache Ranger.
 
-          Implemented/Owned ci/cd (git + azure pipelines->github actions) & test automation for over 350 components across over 30 repositories. First in maven, then migrated to Gradle.
+          Implemented/Owned ci/cd (git + azure pipelines->github actions) and test automation for over 350 components across over 30 repositories. First in maven, then proposed & developed migration to Gradle to improve flexibility and build times from over an hour to around 10 minutes.
 
-          Implemented/Owned containerization, including Kubernetes support, Helm charts, & Kubernetes operator development (go/java).
+          Proposed, Implemented, and owned containerization, including Kubernetes support, Helm charts, Kubernetes operator development (Go/Java), and initiation of cloud-native workgroup, used extensively by new users, and a starting point for production deployment.
 
-          Developed design and implementation for Jupyter/Python notebook support for demos/evangelism & education sessions 
+          Developed idea, design and implementation for Jupyter/Python notebook support for demos/evangelism and education sessions. 
 
-          Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits.
+          Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits alongside other community growth activities.
 
-          Led security work implementing TLS, introducing static analysis, dependency analysis reviews & policy.
+          Proposed, implemented and owned security work implementing TLS(across all components), introducing static analysis (codeql, sonatype, sonarcube), evaluation of software supply chain, dependency analysis reviews, policy, and automation (dependabot).
           
-          Consistently delivered over 2000 public Github contributions per year.
+          Consistently delivered over 2000 public Github contributions per year ( https://github.com/planetf1 ).
 
           Deputy project representative on LF AI & Data Technical Advisory Council.
 
-          Worked with IBM product teams (in addition to other companies) on consuming Egeria.
+          Worked with IBM product teams & other collaborating companies on consuming Egeria effectively, and supported and mentored through feedback, documentation, online sessions.
       - role: Information Solutions Architect
         time: 2011 - 2016
         company: IBM (Information Management)
         details: |
-          Understanding Information lifecycle & supply chains & working with customers & product teams to architect solutions including IBM products & third-party technologies.
+          Architect solutions proposals including IBM products & third-party technologies.
 
-          Developed and communicated Data Lake/Reservoir architecture and implementations (see publication). Worked with development and sales teams including responding to requests for information, design proposals, presentations.
+          Developed and communicated Data Lake/Reservoir architecture and implementations (see publication). Worked with development and sales teams including responding to requests for information, design proposals, presentations. Worked alongside other internal organizations to document standard patterns.
 
-          Technologies include ETL, Information Governance, metadata catalogs, & solutions using specific technologies such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor).
+          Technologies included ETL, Information Governance, metadata catalogs, & specific implementations such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor) in additional to IBM products.
 
-          Developed (java/sql) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation).
+          Developed (Java/SQL) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation).
 
-          Learnings during this period led to current focus on open metadata, initially using Apache Atlas, but then helping to form and create the Egeria project.
+          Learnings during this period led to current focus on open metadata, initially working with the Apache Atlas project, but then helping to form and create the standalone Egeria project.
       - role: Software Architect
         time: 2009 - 2011
         company: IBM (Information Management)
         details: |
-          Architect in the InfoSphere Tools area within Information Management.
+          Supported customer bids across variety of products, especially current Master Information Management offerings.
 
-          Supported customer bids across variety of products but especially current Master Information Management offerings.
-
-          Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio.
+          Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio, identifying which products could be used together & how. This later evolved into the project on Data Lakes.
       - role: Software Architect / Developer
         time: 2005 - 2009
         company: IBM (Information Management)
         details: |
-         Java Developer on IBM Master Data Management Server following acquisition.
+         Java Developer on IBM Master Data Management Server (Reference Data Management) following an acquisition.
 
-         Developed integration with IBM product strategy including installation.
+         Developed integration with IBM product strategy including installation, and analyzed performance, development of search, and z/OS support.
 
-         Also worked on performance analysis, search, and z/OS support including Linux on Z.
+         Took ownership of Linux on Z support, including testing & presenting at conference.
       - role: Software Developer
         time: 1992 - 2004
         company: IBM (Voice Systems)
         details: |
           Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI supporting 100-1000s concurrent calls with Interactive Voice Response & Voicemail.
 
-          Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database layer.
+          Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, resource management, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database.
 
-          Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel, including submitting algorithm improvements to AIX kernel.
+          Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. 
+          
+          Analyzed performance in kernel, including submitting algorithm improvements to AIX (Unix).
 
           Responded to customer requests for new function, analyzing and designing solutions.
       - role: Software Developer
         time: 1991 - 1992
         company: IBM (ISDN)
         details: |
-          Debugging and fixing (in C) ISDN device driver code & developing graphical install/configuration panels. 
+          Debugging and fixing ISDN device driver code in C, and developing graphical install/configuration panels. 
       - role: Software Developer
         time: 1990 - 1991
         details: |
@@ -160,8 +160,10 @@ experiences:
         time: 1987 - 1990 (Easter/Summer vacation)
         company: British Telecom
         details: |
-          Data quality and analysis such as resolving provisioned/mismatched services when comparing data queried from live Telephony exchanges with mainframe (cobol) based billing and customer management systems. Developed database queries & reports.
+          Data quality and analysis such as resolving provisioned/mismatched services when comparing data queried from live Telephony exchanges with mainframe (COBOL) based billing and customer management systems. Developed database queries & reports.
 
+# --- Omit these sections, as they don't add value when the main experience was intrinsically an OSS project
+# ---
 #projects:
 #    title: Projects
 #    intro: >
@@ -170,14 +172,10 @@ experiences:
 #      - title: Egeria
 #        link: "#hook"
 #        tagline: "An open metadata infrastructure"
-
-
-
 #oss:
 #    title: OSS Contributions
 #    intro: >
-#      You can list your open source software contributions in this
-#      section.
+#      My contributions
 #    contributions:
 #      - title: Egeria
 #        link: "#"
@@ -202,7 +200,6 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
       - name: open-source development
         level: 90%
@@ -243,9 +240,9 @@ skills:
         level: 80%
       - name: Openshift
         level: 70%
-      - name: Helm (developing charts)
+      - name: Helm
         level: 90%
-      - name: Kubernetes Operators (writing)
+      - name: Kubernetes Operators
         level: 90%
       - name: SQL
         level: 90%
@@ -255,8 +252,6 @@ skills:
         level: 60%
       - name: Hadoop
         level: 50%
-      - name: Performance analysis
-        level: 80%
       - name: Spring
         level: 60%
       - name: Jackson
@@ -266,4 +261,4 @@ skills:
       -
 
 footer: >
-    Nigel Jones's online cv - https://planetf1.github.io/online-cv/
+    Nigel Jones - Senior Software Engineer  -  online version at <a href=https://planetf1.github.io/online-cv/>https://planetf1.github.io/online-cv/</a>
