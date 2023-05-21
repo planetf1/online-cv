@@ -4,11 +4,11 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Nigel Jones
-    tagline: Software Engineer
+    tagline: Senior Software Engineer
     #avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -57,13 +57,13 @@ career-profile:
     title: Career Profile
     summary: |
       
-      I am currently an open-source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
+      I am an open-source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
   
-      I have a passion for open source, which underpins so much of today's software solutions. Open source thrives on community engagement, open discussions, honesty, integrity, and delivery. Equally, this same pattern occurs within an organization as inner-source is increasingly a standard way of working.
+      I have a passion for open source, which underpins so much of today's software solutions. Open source thrives on community engagement, open discussions, honesty, integrity, and delivery. Equally, this same pattern occurs within an organization as a collaborative inner-source approach is increasingly adopted.
   
-      I also enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies. Whilst on Egeria I was responsible for many additions, especially beyond the core Java Architecture embracing CI/CD, Security, Demos, Containerization/Kubernetes, Jupyter as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions to business problems.
+      I enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies, as well as digging into detail and analysing root cause of issues. Whilst on Egeria I was responsible for many new areas as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions.
         
-      In my own time I love getting out exploring new places, and doing what I can to support mitigation of climate change.
+      A successful future role would combine working in an open and engaging community with further developing skills areas I already have, alongside developing skills in new technologies, to deliver solutions to business problems that can make a difference.
 education:
     title: Education
     info:
@@ -74,7 +74,7 @@ education:
       - degree: Physics
         university: University of Oxford
         time: 1986 - 1987
-        details: Switched to a degree including computer science at Manchester - a very dynamic environment with better computing facilities as the home computer revolution was underway.
+        details: 
 
 experiences:
     title: Experiences
@@ -93,7 +93,7 @@ experiences:
 
           Implemented/Owned containerization, including Kubernetes support, Helm charts, & Kubernetes operator development (go/java).
 
-          Developed design and implementation for Jupyter/Python support for demos/evangelism & education sessions.
+          Developed design and implementation for Jupyter/Python notebook support for demos/evangelism & education sessions 
 
           Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits.
 
@@ -134,17 +134,17 @@ experiences:
 
          Developed integration with IBM product strategy including installation.
 
-         Also worked on performance analysis, search & z/OS support including Linux on Z.
+         Also worked on performance analysis, search, and z/OS support including Linux on Z.
       - role: Software Developer (Voice Systems)
         time: 1991 - 2004
         company: IBM
         details: |
-          Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI.
+          Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI supporting 100-1000s concurrent calls with Interactive Voice Response & Voicemail.
 
           Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database layer.
 
           Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel, including submitting algorithm improvements to AIX kernel.
-          
+
           Responded to customer requests for new function, analyzing and designing solutions.
 
 #projects:
@@ -171,8 +171,7 @@ experiences:
 
 publications:
     title: Publications
-    intro: |
-      Books & Patents
+    intro: 
     papers:
       - title: Designing and Operating a Data Reservoir
         link: https://www.redbooks.ibm.com/redbooks/pdfs/sg248274.pdf
@@ -239,14 +238,14 @@ skills:
         level: 60%
       - name: Apache Atlas
         level: 60%
-      - name: Analysing logs, performance
-        level: 90%
+      - name: Hadoop
+        level: 50%
+      - name: Performance analysis
+        level: 80%
       - name: Spring
         level: 60%
       - name: Jackson
         level: 60%
-      - name: Quarkus
-        level: 20%
       - name: Security, Certificates, TLS
         level: 70%
       -
