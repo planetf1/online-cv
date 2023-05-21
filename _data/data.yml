@@ -204,13 +204,13 @@ skills:
       - name: open-source development
         level: 90%
       - name: solution architecture
-        level: 90%
+        level: 80%
       - name: Information Governance
-        level: 90%
+        level: 80%
       - name: metadata
         level: 90%
       - name: Data Lakes
-        level: 90%
+        level: 80%
       - name: Java
         level: 70%
       - name: Golang
@@ -220,7 +220,7 @@ skills:
       - name: shell scripting
         level: 90%
       - name: Jupyter (notebooks)
-        level: 50%
+        level: 60%
       - name: Linux
         level: 90%
         #level: 98%
@@ -231,7 +231,7 @@ skills:
       - name: cicd / GitHub actions
         level: 90%
       - name: Supply Chain Security
-        level: 80%
+        level: 70%
       - name: Static Code Analysis
         level: 70%
       - name: Containers
@@ -243,7 +243,7 @@ skills:
       - name: Helm
         level: 90%
       - name: Kubernetes Operators
-        level: 90%
+        level: 70%
       - name: SQL
         level: 90%
       - name: Apache Kafka
@@ -257,7 +257,7 @@ skills:
       - name: Jackson
         level: 60%
       - name: Security, Certificates, TLS
-        level: 70%
+        level: 80%
       -
 
 footer: >
