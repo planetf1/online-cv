@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Nigel Jones
-    tagline: Open Source Developer
+    tagline: Software Engineer
     #avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: nigel.l.jones@gmail.com
     #timezone: Europe/London Timezone
-    #citizenship:
+    citizenship: British Citizen
     #website: blog.webjeda.com #do not add http://
     linkedin: nigelljones
     #xing: alandoe
@@ -37,11 +37,11 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Local technical meetings
+        - item: Technical meetups (local)
           link: https://siliconbrighton.com/meetup-groups/
         - item: Climate Change
           link:
-        - item: Physics
+        - item: Physics, Space, and Science
           link:
         - item: Electric Vehicles
           link:
@@ -49,23 +49,20 @@ sidebar:
           link:
         - item: Travel
           link:
-        - item: Raspberry pi / Home Automation
+        - item: Raspberry Pi / Home Automation
           link:
-        - item: Geneology
+        - item: Genealogy
           link:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently an open source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
-  
-      I have a passion for open source, which underpins so much of today's IT offering immense business value. Open source thrives on community, as well as organizations that can see the value in contributing to it's success. The vision is only fully realised as other organizations can then build upon this & deliver solid value to their business.
-  
-      I also enjoy taking a project from inception to reality - in Egeria this has included not just initial ideas, architecture, code, design, documentation, but implementing ci/cd for over 350 modules across over 30 repositories, test automation, developing our first demo infrastructure using Juypter/python & containers, and driving that containerization through writing helm charts, kubernetes deployments & operators. Then getting to the bottom of resource, performance issues through determination and diligence whilst communicating clearly and sharing rapidly.
-  
-      Over 2,200 contributions to GitHub in public repositories in the year up to 8 May 2023. https://github.com/planetf1
       
-      Inner-source is increasingly important within organizations too, requiding a similar approach - Flexibility, community, embracing change, learning, and delivering value.
+      I am currently an open-source developer at IBM, and have been involved with the Egeria project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & governance platform.
   
+      I have a passion for open source, which underpins so much of today's software solutions. Open source thrives on community engagement, open discussions, honesty, integrity, and delivery. Equally, this same pattern occurs within an organization as inner-source is increasingly a standard way of working.
+  
+      I also enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies. WHilst on Egeria I was responsible for many additions, especially beyond the core Java Architecture embracing CI/CD, Security, Demos, Containerization/Kubernetes, Jupyter as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately to solve problems is integral to my approach to develop software solutions to business problems.
+        
       In my own time I love getting out exploring new places, and doing what I can to support mitigation of climate change.
 education:
     title: Education
@@ -77,46 +74,58 @@ education:
       - degree: Physics
         university: University of Oxford
         time: 1986 - 1987
-        details: Started as Physics undergrad, but was excited by the home computer revolution and decided to switch to a degree including computer science at Manchester - a very dynamic environment
+        details: Switched to a degree including computer science at Manchester - a very dynamic environment with better computing facilities as the home computer revolution was underway.
 
 experiences:
     title: Experiences
     info:
       - role: Maintainer / Software Engineer
         time: 2017 - Present
-        company: IBM
+        company: IBM (open-source development)
         details: |
-          Developer and Maintainer on the Egeria open source project since inception.
+          Co-founder, Maintainer, and developer since inception on the Egeria open source project providing a metadata integration framework.
+          Solution architecture through community discussions. Developed framework components (Java/Spring).
+          Developed various integrations for initial MVPs including policy-based access control using Apache Ranger & Databases.
+          Implemented/Owned ci/cd (git + azure pipelines->github actions) & test automation for over 350 components across over 30 repositories. First in maven, then migrated to Gradle.
+          Implemented/Owned containerization, including Kubernetes support, Helm charts, & Kubernetes operator development (go/java)
+          Developed design and implementation for Jupyter/Python support for demos/evangelism & education sessions.
+          Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits.
+          Led security work implementing TLS, introducing static analysis, dependency analysis reviews & policy.
+          Consistently delivered over 2000 public Github contributions per year.
+          Deputy project representative on LF AI & Data Technical Advisory Council.
+          Worked with IBM product teams (in addition to other companies) on consuming Egeria.
       - role: Information Solutions Architect
         time: 2011 - 2016
-        company: IBM
+        company: IBM (Information Management)
         details: |
-          Understanding Information lifecycle & supply chains & working with customers & product teams to architect solutions
-  
-          Developed and communicated Data Lake/Reservoir architecture and implementations.
-  
-          Included ETL, Information Governance, metadata catalogs, & solutions using specific technologies such as Apache Hadoop, Apache Falcon, and Apache Atlas.
-  
+          Understanding Information lifecycle & supply chains & working with customers & product teams to architect solutions including IBM products & third-party technologies.
+          Developed and communicated Data Lake/Reservoir architecture and implementations (see publication). Worked with development and sales teams including responding to requests for information, design proposals, presentations.
+          Technologies include ETL, Information Governance, metadata catalogs, & solutions using specific technologies such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor).
+          Developed (java/sql) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation)
           Learnings during this period led to current focus on open metadata, initially using Apache Atlas, but then helping to form and create the Egeria project
       - role: Software Architect
         time: 2009 - 2011
-        company: IBM
+        company: IBM (Information Management)
         details: |
-          Architect in the InfoSphere Tools area within Information Management
-  
-          Work across variety of products but especially current Master Information Management offerings.
-
-          Focussed in particular on a variety of cross-product issues as well as the integration of these products into the broader IBM portfolio
-      - role: Software Architect / Engineer
+          Architect in the InfoSphere Tools area within Information Management.
+          Supported customer bids across variety of products but especially current Master Information Management offerings.
+          Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio.
+      - role: Software Architect / Developer
         time: 2005 - 2009
-        company: IBM
+        company: IBM (Information Management)
         details: |
-          Working with IBM Master Data Management Server on a variety of areas - installation, performance, search,zOS
-      - role: Software Developer
+         Java Developer on IBM Master Data Management Server following acquisition.
+         Developed integration with IBM product strategy including installation.
+         Also worked on performance analysis, search & z/OS support including Linux on Z.
+      - role: Software Developer (Voice Systems)
         time: 1991 - 2004
         company: IBM
         details: |
-          IBM Voice products
+          Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI.
+          Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database layer.
+          Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. Analyzed performance in kernel including submitting algorithm improvements to AIX kernel.
+          Responded to customer requests for new function, analyzing and designing solutions.
+
 #projects:
 #    title: Projects
 #    intro: >
@@ -211,6 +220,15 @@ skills:
         level: 60%
       - name: Analysing logs, performance
         level: 90%
+      - name: Spring
+        level: 60%
+      - name: Jackson
+        level: 60%
+      - name: Quarkus
+        level: 20%
+      - name: Security, Certificates, TLS
+        level: 70%
+      -
 
 footer: >
-    https://planetf1.github.io/online-cv/
+    Nigel Jones's online cv - https://planetf1.github.io/online-cv/
