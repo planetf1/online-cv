@@ -59,7 +59,7 @@ career-profile:
       
       I am an developer at IBM, and have been involved with the Egeria open source project (LF AI & Data) since inception as a co-founder, and maintainer, collaborating with others on delivering an open, extensible, metadata & data governance platform.
   
-      I enjoy taking a project from inception to reality doing whatever it takes. This includes looking at best practices and introducing new approaches and technologies, as well as digging into detail and analysing root cause of issues. Whilst on Egeria I was responsible for many new areas as I identified gaps & did not let not knowing a technology get in the way. Learning about new technologies, and introducing them appropriately with a good understanding of requirements and constraints, is integral to my approach to developing software solutions.
+      I enjoy taking a project from inception to reality doing whatever it takes. This includes understanding requirements and constraints, looking at latest technologies and best practices, and introducing these where it makes sense. On Egeria I have been responsible for many new areas, not letting unfamiliarity with a technology get in the way. Learning about new technologies, and introducing them appropriately, showing added value, is integral to my approach to developing software solutions.
       
       I have a passion for open source, which underpins much current software. Open source thrives on community engagement, continual sharing, open discussions, honesty, integrity, trust, and delivery. Equally, this same pattern occurs within an organization as a collaborative inner-source approach is increasingly adopted.
 
@@ -89,13 +89,13 @@ experiences:
 
           Developed various integrations for initial MVPs including policy-based access control & virtualization for Databases using Apache Ranger.
 
-          Implemented/Owned ci/cd (git + azure pipelines->github actions) and test automation for over 350 components across over 30 repositories. First in maven, then proposed & developed migration to Gradle to improve flexibility and build times from over an hour to around 10 minutes.
+          Implemented/Owned ci/cd. Test automation for over 350 components across over 30 repositories. Early pipelines were in Azure, but I proposed and implemented a migration to Github actions which were instantly faster, more flexible, and better integrated. Builds were first in maven, then I proposed & developed migration to Gradle to improve flexibility and build times from over an hour to around 10 minutes.
 
           Proposed, Implemented, and owned containerization, including Kubernetes support, Helm charts, Kubernetes operator development (Go/Java), and initiation of cloud-native workgroup, used extensively by new users, and a starting point for production deployment.
 
           Developed idea, design and implementation for Jupyter/Python notebook support for demos/evangelism and education sessions. 
 
-          Ran education sessions online, at conferences & presented at several Linux Foundation Open Source summits alongside other community growth activities.
+          Ran education sessions online, at conferences and presented at several Linux Foundation Open Source summits alongside other community activities such as the Grace Hopper Foundation open source day.
 
           Proposed, implemented and owned security work implementing TLS(across all components), introducing static analysis (codeql, sonatype, sonarcube), evaluation of software supply chain, dependency analysis reviews, policy, and automation (dependabot).
           
@@ -103,16 +103,16 @@ experiences:
 
           Deputy project representative on LF AI & Data Technical Advisory Council.
 
-          Worked with IBM product teams & other collaborating companies on consuming Egeria effectively, and supported and mentored through feedback, documentation, online sessions.
+          Worked with IBM product teams and other collaborating companies on consuming Egeria effectively, and supported and mentored through feedback, documentation, online sessions.
       - role: Information Solutions Architect
         time: 2011 - 2016
         company: IBM (Information Management)
         details: |
-          Architect solutions proposals including IBM products & third-party technologies.
+          Architect solutions proposals including IBM products and third-party technologies.
 
           Developed and communicated Data Lake/Reservoir architecture and implementations (see publication). Worked with development and sales teams including responding to requests for information, design proposals, presentations. Worked alongside other internal organizations to document standard patterns.
 
-          Technologies included ETL, Information Governance, metadata catalogs, & specific implementations such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor) in additional to IBM products.
+          Technologies included ETL, Information Governance, metadata catalogs, and specific implementations such as Apache Hadoop, Apache Falcon, and Apache Atlas (contributor) in additional to IBM products.
 
           Developed (Java/SQL) a proof of concept Governance Tool to manage Exceptions (tasks requiring remediation).
 
@@ -123,7 +123,7 @@ experiences:
         details: |
           Supported customer bids across variety of products, especially current Master Information Management offerings.
 
-          Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio, identifying which products could be used together & how. This later evolved into the project on Data Lakes.
+          Focussed on a variety of cross-product issues particularly integration of these products into the broader IBM portfolio, identifying which products could be used together and how. This later evolved into the project on Data Lakes.
       - role: Software Architect / Developer
         time: 2005 - 2009
         company: IBM (Information Management)
@@ -132,14 +132,14 @@ experiences:
 
          Developed integration with IBM product strategy including installation, and analyzed performance, development of search, and z/OS support.
 
-         Took ownership of Linux on Z support, including testing & presenting at conference.
+         Took ownership of Linux on Z support, including testing and presenting at conferences.
       - role: Software Developer
         time: 1992 - 2004
         company: IBM (Voice Systems)
         details: |
-          Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI supporting 100-1000s concurrent calls with Interactive Voice Response & Voicemail.
+          Developed Unix-based real-time telephony system deployed in enterprises and large carriers such as Vodafone and MCI supporting 100-1000s concurrent calls with Interactive Voice Response and Voicemail.
 
-          Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, resource management, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database.
+          Specialized on UI (X11, Motif, Curses), performance, availability under high scale and load, resource management, with a strong focus on millisecond level responsiveness, fallback behaviour, and a full-stack view including database. Supported metrics capture and solution sizing.
 
           Developed and tested support for signalling protocols (ISDN, CAS, SS7) at kernel level. 
           
@@ -160,7 +160,7 @@ experiences:
         time: 1987 - 1990 (Easter/Summer vacation)
         company: British Telecom
         details: |
-          Data quality and analysis such as resolving provisioned/mismatched services when comparing data queried from live Telephony exchanges with mainframe (COBOL) based billing and customer management systems. Developed database queries & reports.
+          Data quality and analysis such as resolving provisioned/mismatched services when comparing data queried from live Telephony exchanges with mainframe (COBOL) based billing and customer management systems. Developed database queries and reports.
 
 # --- Omit these sections, as they don't add value when the main experience was intrinsically an OSS project
 # ---
@@ -188,7 +188,7 @@ publications:
     papers:
       - title: Designing and Operating a Data Reservoir
         link: https://www.redbooks.ibm.com/redbooks/pdfs/sg248274.pdf
-        authors: Mandy Chessell, Nigel Jones, Jay Limburn, David Radley, Kevin Shan
+        authors: Nigel Jones, Mandy Chessell, Jay Limburn, David Radley, Kevin Shan
         #conference: n/a
       - title: US20060104307A1 Method and system for channel management in a voice response system
         link: https://patents.google.com/patent/US20060104307A1
@@ -258,7 +258,6 @@ skills:
         level: 60%
       - name: Security, Certificates, TLS
         level: 80%
-      -
 
 footer: >
     Nigel Jones - Senior Software Engineer  -  online version at <a href=https://planetf1.github.io/online-cv/>https://planetf1.github.io/online-cv/</a>
