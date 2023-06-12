@@ -221,6 +221,10 @@ skills:
         level: 90%
       - name: Jupyter (notebooks)
         level: 60%
+      - name: Machine learning (python)
+        level: 30%
+      - name: Generative AI
+        level: 20%
       - name: Linux
         level: 90%
         #level: 98%
